@@ -147,7 +147,17 @@
 <script>
   export default {
     metaInfo: {
-      title: 'Atlas - Portfolio'
+      title: 'Atlas - Portfolio',
+      meta: [
+        { name: 'og:image', content: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/a2/a2b5904b3eff3d07039a6238eed1cc9f3c3814d2_full.jpg' },
+        { name: 'og:title', content: 'Atlas\' Portfolio' },
+        { name: 'og:description', content: 'My personal portfolio, updated after every commission.' },
+
+        { name: 'twitter:image', content: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/a2/a2b5904b3eff3d07039a6238eed1cc9f3c3814d2_full.jpg' },
+        { name: 'twitter:title', content: 'Atlas\' Portfolio' },
+        { name: 'twitter:description', content: 'My personal portfolio, updated after every commission.' },
+        { name: 'twitter:card', content: 'summary_large_image' }
+      ],
     }
   }
 </script>
