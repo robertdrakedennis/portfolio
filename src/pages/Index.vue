@@ -152,5 +152,4 @@
   }
 </script>
 
-<style>
-</style>
+<style src="../main.css"/>
