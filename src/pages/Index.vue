@@ -53,8 +53,8 @@
                 <a href="https://icefuse.net/" class="text-2xl text-red-600 font-bold">Icefuse</a>
                 <p class="text-gray-400 text-sm font-light mb-4">Web Developer</p>
                 <p class="leading-normal text-gray-200 text-base mb-4">
-                  Icefuse is one of the largest game communities / companies out there. I was assigned with building a link application where users from their community can connect their discord, youtube, and steam
-                  to gain rewards in their Rust and Garry's Mod servers.
+                  Icefuse is one of the largest game communities / companies out there. I was assigned with building a link application where users from their community can connect their Discord, Youtube, and Steam
+                  accounts to gain rewards in their Rust and Garry's Mod servers.
                 </p>
               </div>
 
