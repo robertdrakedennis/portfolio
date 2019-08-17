@@ -1,8 +1,15 @@
-*.log
-.cache
-.DS_Store
-src/.temp
-node_modules
-dist
-.env
-.env.*
+/build_local/
+/cache/
+/node_modules/
+/vendor/
+/.idea/
+/.vscode/
+npm-debug.log
+yarn-error.log
+
+# Optional ignores
+/build_staging/
+/build_production/
+/source/assets/css/
+/source/assets/fonts/
+/source/assets/js/
