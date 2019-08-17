@@ -12,17 +12,17 @@
       </div>
 
       <div class="w-full text-center mt-8">
-        <h1 class="text-6xl font-black text-white mb-10">Things I've Made</h1>
+        <h1 class="text-3xl lg:text-6xl font-black text-white mb-10">Things I've Made</h1>
 
         <!-- ASAP -->
-        <div class="flex flex-row">
-          <div class="w-2/3 p-3 h-full flex flex-col items-center justify-center">
+        <div class="flex flex-col lg:flex-row flex-1">
+          <div class="w-full lg:w-2/3 p-3 h-full flex flex-col items-center justify-center">
             <a href="https://asapgaming.co/">
               <g-image src="https://i.imgur.com/dkNFizW.png" alt="hero" class="m-auto h-auto shadow-lg rounded" />
             </a>
           </div>
 
-          <div class="w-1/3 p-3 h-full flex flex-col">
+          <div class="w-full lg:w-1/3 p-3 h-full flex flex-col">
 
             <div class="max-w-sm overflow-hidden text-left">
               <div class="px-6 py-4">
@@ -46,8 +46,8 @@
         <hr class="my-12 border-gray-700">
 
         <!-- ICE -->
-        <div class="flex flex-row">
-          <div class="w-1/3 p-3 h-full flex flex-col items-center justify-center">
+        <div class="flex flex-col lg:flex-row flex-1">
+          <div class="w-full lg:w-1/3 p-3 h-full flex flex-col items-center justify-center">
             <div class="max-w-sm overflow-hidden text-left">
               <div class="px-6 py-4">
                 <a href="https://icefuse.net/" class="text-2xl text-red-600 font-bold">Icefuse</a>
@@ -66,7 +66,7 @@
             </div>
           </div>
 
-          <div class="w-2/3 p-3 h-full flex flex-col">
+          <div class="w-full lg:w-2/3 p-3 h-full flex flex-col">
 
             <a href="https://icefuse.net/">
               <g-image src="https://i.imgur.com/bOszq9E.png" alt="hero" class="m-auto h-auto shadow-lg rounded" />
@@ -77,14 +77,14 @@
         <hr class="my-12 border-gray-700">
 
         <!-- TN -->
-        <div class="flex flex-row">
-          <div class="w-2/3 p-3 h-full flex flex-col items-center justify-center">
+        <div class="flex flex-col lg:flex-row flex-1">
+          <div class="w-full lg:w-2/3 p-3 h-full flex flex-col items-center justify-center">
             <a href="https://titannodes.com/">
               <g-image src="https://i.imgur.com/0aGdpgW.png" alt="hero" class="m-auto h-auto shadow-lg rounded" />
             </a>
           </div>
 
-          <div class="w-1/3 p-3 h-full flex flex-col">
+          <div class="w-full lg:w-1/3 p-3 h-full flex flex-col">
 
             <div class="max-w-sm overflow-hidden text-left">
               <div class="px-6 py-4">
@@ -109,8 +109,8 @@
         <hr class="my-12 border-gray-700">
 
         <!-- GMS -->
-        <div class="flex flex-row">
-          <div class="w-1/3 p-3 h-full flex flex-col items-center justify-center">
+        <div class="flex flex-col lg:flex-row flex-1">
+          <div class="w-full lg:w-1/3 p-3 h-full flex flex-col items-center justify-center">
 
             <div class="max-w-sm overflow-hidden text-left">
               <div class="px-6 py-4">
@@ -132,7 +132,7 @@
 
           </div>
 
-          <div class="w-2/3 p-3 h-full flex flex-col">
+          <div class="w-full lg:w-2/3 p-3 h-full flex flex-col">
             <a href="https://www.gmodstore.com/users/atlas">
               <g-image src="https://i.imgur.com/3Wl8wNZ.png" alt="hero" class="m-auto h-auto shadow-lg rounded" />
             </a>
