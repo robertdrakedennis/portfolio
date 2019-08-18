@@ -22,6 +22,7 @@ mix.options({
   })
   .postCss('source/_assets/css/main.css', 'css/main.css')
   .js('source/_assets/js/main.js', 'js')
+  .copyDirectory('source/_assets/img', 'source/assets/img')
   .purgeCss({
     folders: ['source'],
   })

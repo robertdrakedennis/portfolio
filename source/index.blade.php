@@ -3,14 +3,31 @@
 @section('content')
 
     <div class="container m-auto flex flex-col justify-center items-center py-16 min-h-screen">
-        <div class="w-full text-center">
+        <div class="w-full text-center mb-20">
             <div class="relative mx-auto rounded-full h-48 w-48 border-gray-600 border-2 mb-4" style="padding: .375rem">
                 <div class="rounded-full border-2 border-gray-600" style="padding: .375rem">
-                    <img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/a2/a2b5904b3eff3d07039a6238eed1cc9f3c3814d2_full.jpg" alt="hero" class="rounded-full block" />
+                    <img src="assets/img/icon.png" alt="hero" class="rounded-full block" />
                 </div>
             </div>
             <div class="leading-tight text-3xl my-2 text-white font-bold">atlas</div>
-            <div class="text-gray-400 leading-tight">Fullstack Developer</div>
+            <div class="text-gray-400 leading-tight mb-2">Fullstack Developer</div>
+            <p class="text-gray-400 leading-normal mb-2">
+            My name is Robert, my nickname / internet name is Atlas. I own a startup and live to program.
+            </p>
+            <div class="flex justify-between max-w-xs mx-auto mt-5">
+                <a href="{{ $page->github }}" class="inline-block rounded-full bg-gray-700 uppercase px-2 py-1 text-xs font-bold text-red-100 font-bold">
+                    <i class="fab fa-github fa-fw"></i>
+                    Github
+                </a>
+                <a href="{{ $page->twitter }}" class="inline-block rounded-full bg-blue-600 uppercase px-2 py-1 text-xs font-bold text-red-100 font-bold">
+                    <i class="fab fa-twitter fa-fw"></i>
+                    Twitter
+                </a>
+                <a href="{{ $page->gmodstore }}" class="inline-block rounded-full bg-blue-700 uppercase px-2 py-1 text-xs font-bold text-red-100 font-bold">
+                    <i class="far fa-gamepad fa-fw"></i>
+                    Gmodstore
+                </a>
+            </div>
         </div>
 
         <div class="w-full text-center mt-8">
@@ -20,7 +37,7 @@
             <div class="flex flex-col lg:flex-row flex-1">
                 <div class="w-full lg:w-2/3 p-3 h-full flex flex-col items-center justify-center">
                     <a href="https://asapgaming.co/">
-                        <img src="https://i.imgur.com/dkNFizW.png" alt="hero" class="m-auto h-auto shadow-lg rounded" />
+                        <img src="assets/img/asapgaming.png" alt="hero" class="m-auto h-auto shadow-lg rounded" />
                     </a>
                 </div>
 
@@ -71,7 +88,7 @@
                 <div class="w-full lg:w-2/3 p-3 h-full flex flex-col">
 
                     <a href="https://icefuse.net/">
-                        <img src="https://i.imgur.com/bOszq9E.png" alt="hero" class="m-auto h-auto shadow-lg rounded" />
+                        <img src="assets/img/icefuse.png" alt="hero" class="m-auto h-auto shadow-lg rounded" />
                     </a>
                 </div>
             </div>
@@ -82,7 +99,7 @@
             <div class="flex flex-col lg:flex-row flex-1">
                 <div class="w-full lg:w-2/3 p-3 h-full flex flex-col items-center justify-center">
                     <a href="https://titannodes.com/">
-                        <img src="https://i.imgur.com/0aGdpgW.png" alt="hero" class="m-auto h-auto shadow-lg rounded" />
+                        <img src="assets/img/titan_nodes.png" alt="hero" class="m-auto h-auto shadow-lg rounded" />
                     </a>
                 </div>
 
@@ -127,7 +144,7 @@
                         <div class="px-6 py-4">
                             <span class="inline-block rounded-full bg-red-600 uppercase px-2 py-1 text-xs font-bold mr-3 text-red-100 font-bold">Laravel</span>
                             <span class="inline-block rounded-full bg-orange-600 uppercase px-2 py-1 text-xs font-bold mr-3 text-orange-100 font-bold">PHP</span>
-                            <span class="inline-block rounded-full bg-green-600 uppercase px-2 py-1 text-xs font-bold mr-3 text-green-100 font-bold">Jquery</span>
+                            <span class="inline-block rounded-full bg-yellow-600 uppercase px-2 py-1 text-xs font-bold mr-3 text-yellow-100 font-bold">Jquery</span>
                             <span class="inline-block rounded-full bg-indigo-600 uppercase px-2 py-1 text-xs font-bold mr-3 text-indigo-100 font-bold">Lua</span>
                         </div>
                     </div>
@@ -136,7 +153,7 @@
 
                 <div class="w-full lg:w-2/3 p-3 h-full flex flex-col">
                     <a href="https://www.gmodstore.com/users/atlas">
-                        <img src="https://i.imgur.com/3Wl8wNZ.png" alt="hero" class="m-auto h-auto shadow-lg rounded" />
+                        <img src="assets/img/gmodstore.png" alt="hero" class="m-auto h-auto shadow-lg rounded" />
                     </a>
                 </div>
             </div>
