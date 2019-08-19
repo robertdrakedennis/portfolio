@@ -27,6 +27,11 @@
                     <i class="far fa-gamepad fa-fw"></i>
                     Gmodstore
                 </a>
+
+                <a href="mailto:robertdennispersonal@gmail.com" class="inline-block rounded-full bg-blue-700 uppercase px-2 py-1 text-xs font-bold text-red-100 font-bold">
+                    <i class="far fa-mailbox fa-fw"></i>
+                    Email
+                </a>
             </div>
         </div>
 
