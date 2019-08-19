@@ -14,7 +14,7 @@
             <p class="text-gray-400 leading-normal mb-2">
             My name is Robert, my nickname / internet name is Atlas. I own a startup and live to program.
             </p>
-            <div class="flex justify-between max-w-xs mx-auto mt-5">
+            <div class="flex justify-between max-w-sm mx-auto mt-5">
                 <a href="{{ $page->github }}" class="inline-block rounded-full bg-gray-700 uppercase px-2 py-1 text-xs font-bold text-red-100 font-bold">
                     <i class="fab fa-github fa-fw"></i>
                     Github
